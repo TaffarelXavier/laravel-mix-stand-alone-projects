@@ -100,10 +100,14 @@ Criar o arquivo ``index.html`` na raiz do projeto e adicionar o seguinte conteú
 </html>
 ```
 __10º Passo:__
-Finalmente, execute este ``npx mix`` comando na raiz do projeto.
+Finalmente, execute este comando ``npx mix`` comando na raiz do projeto.
 
 __11º Passo:__
 Abrir o arquivo ``index.html`` no navegador.
+
+A estrutura final será similar a esta:<br>
+![Screenshot_20220325_102414](https://user-images.githubusercontent.com/7841603/160128975-492e91d6-ab80-4d5b-b636-1a4fb9cfd98c.png)
+![Screenshot_20220325_102525](https://user-images.githubusercontent.com/7841603/160129142-a06556b9-d8e0-423d-96b0-252eb527489e.png)
 
 -----
 __REFERÊNCIAS__<br>
