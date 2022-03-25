@@ -8,7 +8,7 @@ npm init -y
 ```
 
 __2º Passo:__
-Substituir o conteúdo do passo 1 por este:
+Substituir o conteúdo do arquivo ``package.json`` por este:
 ```json
 {
    "name": "mix-teste",
