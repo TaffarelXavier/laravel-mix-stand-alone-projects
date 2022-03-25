@@ -1,12 +1,13 @@
-# laravel-mix-stand-alone-projects
+# laravel Mix Stand Alone Projects
+
 Este tutorial ensina como criar em 5 minutos um projeto usando Vue Js e Laravel Mix em um projeto que não seja no laravel.
 
-1º Passo
+__1º Passo__
 ```batch
 npm init -y
 ```
 
-2º Passo
+__2º Passo__
 Substituir o conteúdo do passo 1 por este:
 ```json
 {
@@ -31,15 +32,15 @@ Substituir o conteúdo do passo 1 por este:
 }
 ```
 
-3º Passo
+__3º Passo__
 Executar o comando 
 ```npm install```
 
-4º Passo
+__4º Passo__
 Criar o arquivo ``src/app.js`` na raiz do projeto.
 
-5º Passo
-Adicionar o seguinte conteúdo ao arquivo src/app.js
+__5º Passo__
+Adicionar o seguinte conteúdo ao arquivo ``src/app.js``.
 ```js
 import Vue from 'vue';
 import Exemplo from './components/Exemplo.vue';
@@ -49,17 +50,18 @@ new Vue({
 });
 ```
 
-6º Passo
+__6º Passo__
 Criar o arquivo  webpack.mix.js na raiz do projeto e adicionar a ele o seguinte conteúdo:
 ```js
 let mix = require('laravel-mix');
 mix.js('src/app.js', 'public/js').vue();
 ```
 
-7º Passo
-Criar o arquivo Exemplo.vue na pasta src/components.
-9º Passo
-Adicionar o seguinte conteúdo ao arquivo src/components/Exemplo.vue
+__7º Passo__
+Criar o arquivo Exemplo.vue na pasta ``src/components``.
+
+__9º Passo__
+Adicionar o seguinte conteúdo ao arquivo ``src/components/Exemplo.vue``
 ```vue
 <template>
    <div class="alert" v-text="message"></div>
@@ -80,8 +82,8 @@ export default {
 }
 </style>
 ```
-10º Passo
-Criar o arquivo index.html na raiz do projeto e adicionar o seguinte conteúdo a ele.
+__10º Passo__
+Criar o arquivo ``index.html`` na raiz do projeto e adicionar o seguinte conteúdo a ele.
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -97,8 +99,8 @@ Criar o arquivo index.html na raiz do projeto e adicionar o seguinte conteúdo a
 </body>
 </html>
 ```
-11º Passo
-Finalmente, execute este npx mix comando na raiz do projeto.
+__11º Passo__
+Finalmente, execute este ``npx mix`` comando na raiz do projeto.
 
-12º Passo
-Abrir o arquivo index.html no navegador.
+__12º Passo__
+Abrir o arquivo ``index.html`` no navegador.
