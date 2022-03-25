@@ -2,12 +2,12 @@
 
 Este tutorial ensina como criar em 5 minutos um projeto usando Vue Js e Laravel Mix em um projeto que não seja no laravel.
 
-__1º Passo__
+__1º Passo:__
 ```batch
 npm init -y
 ```
 
-__2º Passo__
+__2º Passo:__
 Substituir o conteúdo do passo 1 por este:
 ```json
 {
@@ -32,14 +32,14 @@ Substituir o conteúdo do passo 1 por este:
 }
 ```
 
-__3º Passo__
+__3º Passo:__
 Executar o comando 
 ```npm install```
 
-__4º Passo__
+__4º Passo:__
 Criar o arquivo ``src/app.js`` na raiz do projeto.
 
-__5º Passo__
+__5º Passo:__
 Adicionar o seguinte conteúdo ao arquivo ``src/app.js``.
 ```js
 import Vue from 'vue';
@@ -50,17 +50,17 @@ new Vue({
 });
 ```
 
-__6º Passo__
+__6º Passo:__
 Criar o arquivo  webpack.mix.js na raiz do projeto e adicionar a ele o seguinte conteúdo:
 ```js
 let mix = require('laravel-mix');
 mix.js('src/app.js', 'public/js').vue();
 ```
 
-__7º Passo__
+__7º Passo:__
 Criar o arquivo Exemplo.vue na pasta ``src/components``.
 
-__9º Passo__
+__8º Passo:__
 Adicionar o seguinte conteúdo ao arquivo ``src/components/Exemplo.vue``
 ```vue
 <template>
@@ -82,7 +82,7 @@ export default {
 }
 </style>
 ```
-__10º Passo__
+__9º Passo:__
 Criar o arquivo ``index.html`` na raiz do projeto e adicionar o seguinte conteúdo a ele.
 ```html
 <!DOCTYPE html>
@@ -99,10 +99,10 @@ Criar o arquivo ``index.html`` na raiz do projeto e adicionar o seguinte conteú
 </body>
 </html>
 ```
-__11º Passo__
+__10º Passo:__
 Finalmente, execute este ``npx mix`` comando na raiz do projeto.
 
-__12º Passo__
+__11º Passo:__
 Abrir o arquivo ``index.html`` no navegador.
 
 
