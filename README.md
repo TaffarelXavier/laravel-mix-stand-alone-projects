@@ -105,7 +105,7 @@ Finalmente, execute este ``npx mix`` comando na raiz do projeto.
 __11º Passo:__
 Abrir o arquivo ``index.html`` no navegador.
 
-
+-----
 __REFERÊNCIAS__<br>
 Stand-Alone Projects. laravel-mix.com.<br>
 https://laravel-mix.com/docs/6.0/installation
