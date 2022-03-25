@@ -1,10 +1,10 @@
 # laravel-mix-stand-alone-projects
 Este tutorial ensina como criar em 5 minutos um projeto usando Vue Js e Laravel Mix em um projeto que não seja no laravel.
 
-
-
 1º Passo
-```npm init -y```
+```batch
+npm init -y
+```
 
 2º Passo
 Substituir o conteúdo do passo 1 por este:
@@ -28,10 +28,12 @@ Substituir o conteúdo do passo 1 por este:
        "vue-loader": "^15.9.8",
        "vue-template-compiler": "^2.6.14"
    }
-}```
+}
+```
 
 3º Passo
-Executar o comando ```npm install```
+Executar o comando 
+```npm install```
 
 4º Passo
 Criar o arquivo ``src/app.js`` na raiz do projeto.
@@ -44,7 +46,8 @@ import Exemplo from './components/Exemplo.vue';
 new Vue({
    el: '#app',
    components: { Exemplo }
-});```
+});
+```
 
 6º Passo
 Criar o arquivo  webpack.mix.js na raiz do projeto e adicionar a ele o seguinte conteúdo:
